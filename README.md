@@ -78,5 +78,5 @@ Learn more about standars to declared CSS
 <h4>Gabo Pereyra</h4>
 
 - GitHub - [@gabopereyra](https://github.com/gabopereyra)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@gabopereyra](https://www.frontendmentor.io/profile/gabopereyra)
 - Twitter - [@gabs_pereyra](https://github.com/gabopereyra)
