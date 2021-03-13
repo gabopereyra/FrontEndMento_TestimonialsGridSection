@@ -23,13 +23,13 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-MOBILE LAYOUT:
+#### MOBILE LAYOUT:
 ![](./screenshots/MOBILE.jpg)
 
-TABLET LAYOUT:
+#### TABLET LAYOUT:
 ![](./screenshots/TABLET.jpg)
 
-DESKTOP LAYOUT:
+#### DESKTOP LAYOUT:
 ![](./screenshots/DESKTOP.jpg)
 
 ### Links
