@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 MOBILE LAYOUT:
-![](./screenshots/mobile.png)
+![](./screenshots/mobile.jpg)
 
 TABLET LAYOUT:
-![](./screenshots/tablet.png)
+![](./screenshots/tablet.jpg)
 
 DESKTOP LAYOUT:
-![](./screenshots/desktop.png)
+![](./screenshots/desktop.jpg)
 
 ### Links
 
