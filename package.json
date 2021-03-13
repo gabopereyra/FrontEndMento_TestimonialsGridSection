@@ -1,0 +1,34 @@
+{
+  "name": "frontendmento_testimonialsgridsection",
+  "version": "1.0.0",
+  "description": "Challenge from Front End Mentor, Testimonials grid section.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabopereyra/FrontEndMento_TestimonialsGridSection.git"
+  },
+  "keywords": [
+    "grid",
+    "challenge",
+    "testimonials",
+    "learnign",
+    "frontend",
+    "css",
+    "html",
+    "sass",
+    "gulp"
+  ],
+  "author": "Gabriel Pereyra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabopereyra/FrontEndMento_TestimonialsGridSection/issues"
+  },
+  "homepage": "https://github.com/gabopereyra/FrontEndMento_TestimonialsGridSection#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

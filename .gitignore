@@ -15,3 +15,9 @@
 .DS_Store
 
 .prettierignore
+
+node_modules
+
+sass
+
+gulpfile.js
