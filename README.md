@@ -12,9 +12,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,17 +24,17 @@ Users should be able to:
 
 ### Screenshot
 MOBILE LAYOUT:
-![](./screenshots/mobile.jpg)
+![](./screenshots/MOBILE.jpg)
 
 TABLET LAYOUT:
-![](./screenshots/tablet.jpg)
+![](./screenshots/TABLET.jpg)
 
 DESKTOP LAYOUT:
-![](./screenshots/desktop.jpg)
+![](./screenshots/DESKTOP.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/testimonials-grid-section-3-layouts-made-with-help-of-sass-mEmztyvcH]
 - Live Site URL: [https://frontendmentor-testimonialsgridsection.netlify.app/]
 
 ## My process
@@ -51,52 +49,34 @@ DESKTOP LAYOUT:
 - GULP
 
 ### What I learned
+This challenge was more difficult than I was expected, because I had doubts about the display grid behaviour, however could fix the mistakes.
+En another way, I decided to make three layouts, with breakpoints in 768px, and 1300px.
+To work with CSS used SASS, in this point was hard because I didn't know a lot about SASS and I don't have a standar to write CSS.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project I learned a little bit about Gulp, too, I used to compiled the SASS files. To make this I have to used the following code in the gulpfile:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+const {series, src, dest, watch} = require('gulp'); 
+const sass = require('gulp-sass');
+
+function css(done){
+    return src('sass/app.scss')
+        .pipe(sass())
+        .pipe( dest('./css'))
 }
+
+exports.css = css;
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+How to apply correctly GRID, for moments I fell with doubts about its behaviour.
+Continue learning how to use SASS and GULP
+Learn more about standars to declared CSS
 
 ## Author
+<h4>Gabo Pereyra</h4>
 
-- Website - [Add your name here](https://www.your-site.com)
+- GitHub - [@gabopereyra](https://github.com/gabopereyra)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Twitter - [@gabs_pereyra](https://github.com/gabopereyra)
